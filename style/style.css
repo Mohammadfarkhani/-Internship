@@ -521,7 +521,7 @@
         border-radius: 15px;
     }
     
-    .family .family-baner .img {
+    .family .family-baner .img-01 {
         position: absolute;
         top: 100px;
         left: 75px;
@@ -529,6 +529,16 @@
         height: 500px;
         border-radius: 15px 15px 100px 15px;
         background: url(../img/family1.jpg) -95px 40%/cover no-repeat;
+    }
+    
+    .family .family-baner .img-02 {
+        position: absolute;
+        top: 100px;
+        left: 75px;
+        width: 365px;
+        height: 500px;
+        border-radius: 15px 15px 100px 15px;
+        background: url(../img/family2.jpg) 0 40%/cover no-repeat;
     }
     
     .family .family-des {
@@ -627,4 +637,285 @@
         font-size: 0.8rem;
         color: #bebebe;
         text-decoration: none;
+    }
+    /* Home details */
+    
+    nav .section {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    nav .section .head {
+        display: flex;
+        flex-direction: column;
+        margin: 40px auto 0;
+        align-items: center;
+    }
+    
+    nav .section .head h3 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #152c5b;
+    }
+    
+    nav .section .head h5 {
+        font-size: 0.8rem;
+        color: #b5b5b5;
+    }
+    /* home / details */
+    /* img */
+    
+    .section .img {
+        display: grid;
+        grid-template-columns: 6fr 4fr;
+        grid-template-rows: repeat(2, 1fr);
+        margin-top: 35px;
+        grid-gap: 10px;
+    }
+    
+    .section .img span.img1 {
+        grid-row: 1/3;
+        width: 645px;
+        height: 500px;
+        background: url(../img/img_1.jpg) -100px 40%/cover no-repeat;
+        border-radius: 15px;
+    }
+    
+    .section .img span.img2 {
+        width: 480px;
+        height: 245px;
+        background: url(../img/img_5.jpg) 0 40%/cover no-repeat;
+        border-radius: 15px;
+    }
+    
+    .section .img span.img3 {
+        width: 480px;
+        height: 245px;
+        background: url(../img/img_2.jpg) 0 40%/cover no-repeat;
+        border-radius: 15px;
+    }
+    
+    .section .des {
+        display: grid;
+        grid-template-columns: 6fr 4fr;
+        grid-gap: 50px;
+    }
+    
+    .section .about h3 {
+        font-size: 1rem;
+        color: #152c5b;
+        margin-top: 25px;
+    }
+    
+    .section .about h4 {
+        font-size: 0.8rem;
+        color: #bebebe;
+        margin-top: 5px;
+        text-align: justify;
+    }
+    
+    .section .des .about .down {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr 1fr;
+        justify-content: space-between;
+    }
+    
+    .section .des .about .down .item {
+        font-size: 0.7rem;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .section .des .about .down .item .up {
+        width: 35px;
+        height: 35px;
+        margin-top: 20px;
+    }
+    
+    .section .des .about .down .item .up.icone-01 {
+        background: url(../img/bedroom.png) 0 40%/cover no-repeat;
+    }
+    
+    .section .des .about .down .item .up.icone-02 {
+        background: url(../img/living\ room.png) 0 40%/cover no-repeat;
+    }
+    
+    .section .des .about .down .item .up.icone-03 {
+        background: url(../img/3\ bathroom.png) 0 40%/cover no-repeat;
+    }
+    
+    .section .des .about .down .item .up.icone-04 {
+        background: url(../img/1\ dining\ room.png) 0 40%/cover no-repeat;
+    }
+    
+    .section .des .about .down .item .up.icone-05 {
+        background: url(../img/wifi.png) 0 40%/cover no-repeat;
+    }
+    
+    .section .des .about .down .item .up.icone-06 {
+        background: url(../img/unit\ ready.png) 0 40%/cover no-repeat;
+    }
+    
+    .section .des .about .down .item .up.icone-07 {
+        background: url(../img/2\ refigrator.png) 0 40%/cover no-repeat;
+    }
+    
+    .section .des .about .down .item .up.icone-08 {
+        background: url(../img/tv.png) 0 40%/cover no-repeat;
+    }
+    
+    .section .des .about .down .item .foot {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+    }
+    
+    .section .des .about .down .item .foot h4 {
+        color: #152c5b;
+        margin-right: 5px;
+    }
+    
+    .section .des .about .down .item .foot h5 {
+        color: #b5b5b5;
+        margin-top: 5px;
+    }
+    
+    .section .des .booking {
+        border: 2px solid #E5E5E5;
+        border-radius: 15px;
+        margin: auto 0;
+        padding: 30px 50px;
+    }
+    
+    .section .des .booking .content {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 320px;
+    }
+    
+    .section .des .booking .content .header h2 {
+        color: #152c5b;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    
+    .section .des .booking .content .price {
+        display: flex;
+        flex-direction: row;
+        margin: 10px 0;
+    }
+    
+    .section .des .booking .content .price h4 {
+        font-weight: bold;
+        font-size: 1.5rem;
+        color: #1ABC9C;
+    }
+    
+    .section .des .booking .content .price h5 {
+        font-size: 1.2rem;
+        color: #B0B0B0;
+        margin: auto 5px;
+    }
+    
+    .section .des .booking .content .question h3 {
+        color: #152c5b;
+        font-size: 0.7rem;
+        font-weight: bold;
+    }
+    
+    .section .des .booking .content .btn-day {
+        display: flex;
+        flex-direction: row;
+        width: 320px;
+        height: 45px;
+        justify-content: space-between;
+        background-color: #F5F6F8;
+        border-radius: 15px;
+        margin: 15px 0;
+    }
+    
+    .section .des .booking .content .btn-day button.low {
+        background-color: #E74C3C;
+        color: white;
+        border-radius: 10px;
+        border-style: none;
+        width: 45px;
+        font-size: 35px;
+    }
+    
+    .section .des .booking .content .btn-day button.plus {
+        background-color: #1ABC9C;
+        color: white;
+        border-radius: 10px;
+        border-style: none;
+        width: 45px;
+        font-size: 35px;
+    }
+    
+    .section .des .booking .content .btn-day p {
+        margin: auto;
+        font-size: 0.8rem;
+    }
+    
+    .section .des .booking .content .date {
+        display: flex;
+        flex-direction: row;
+        height: 45px;
+        width: 320px;
+        margin: 15px 0;
+    }
+    
+    .section .des .booking .content .date {
+        background-color: #F5F6F8;
+        border-radius: 10px;
+    }
+    
+    .section .des .booking .content .date button.calendar {
+        display: flex;
+        width: 45px;
+        color: white;
+        background: url(../img/calender.jpg) 0 40%/cover no-repeat;
+        border: none;
+        border-radius: 10px;
+    }
+    
+    .section .des .booking .content .date p {
+        margin: auto;
+        font-size: 0.8rem;
+    }
+    
+    .section .des .booking .content .out {
+        display: flex;
+        flex-direction: row;
+        font-size: 0.7rem;
+        margin: 10px 0;
+    }
+    
+    .section .des .booking .content .out h6 {
+        color: #1ABC9C;
+        margin: 0 2px;
+    }
+    
+    .section .des .booking .content .out h3 {
+        color: #152C5B;
+        font-weight: bold;
+    }
+    
+    .section .des .booking .content .btn {
+        margin-top: 10px;
+    }
+    
+    .section .des .booking .content .btn button {
+        width: 320px;
+        background-color: #3252df;
+        padding: 10px 0;
+        border-radius: 10px;
+    }
+    
+    .section .des .booking .content .btn button a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
     }
